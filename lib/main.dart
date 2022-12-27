@@ -37,10 +37,25 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Column(
-            children: <Widget>[
-              for(var item in _transactions ) 
-                Text(item.title)
-            ]
+            children: _transactions.map((tr) {
+              return Card(
+                child: Row(
+                  children: <Widget>[
+                    Container(
+                      child: Text(
+                        tr.value.toString()
+                      ),
+                    ),
+                    Column(
+                      children: <Widget>[
+                        Text(tr.title),
+                        Text(tr.date.toString()),
+                      ],
+                    )
+                  ],
+                )
+              );
+            }).toList(),
           )
         ],
       ),
