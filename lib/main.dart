@@ -27,6 +27,9 @@ class ExpensesApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
+          button: TextStyle(
+            color:Colors.white,
+          )
         ),
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(
