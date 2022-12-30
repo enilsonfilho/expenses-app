@@ -131,14 +131,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            if (_showChart)
+            if (_showChart || !isLandscape)
                 Container(
                   height: availableHeight * 0.30,
                   child: Chart(
                     _recentTransactions
                     ),
                   ),
-            if (!_showChart)
+            if (!_showChart || !isLandscape)
                 Container(
                   height: availableHeight * 0.70,
                   child: TransactionList(
