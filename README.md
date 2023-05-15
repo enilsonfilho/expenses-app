@@ -4,8 +4,8 @@ Este é um aplicativo Flutter desenvolvido para ajudar no controle de despesas p
 
 ## Funcionalidades
 - Cadastro de despesas básicas: Permite cadastrar as despesas básicas, como alimentação, transporte, moradia, entre outras.
-- Acompanhamento das despesas: Apresenta uma visão geral das despesas cadastradas, permitindo visualizar o valor, a categoria e a data de cada despesa.
-- Estatísticas de despesas: Apresenta gráficos e estatísticas para ajudar no acompanhamento dos gastos e na identificação de padrões de consumo.
+- Acompanhamento das despesas: Apresenta uma visão geral das despesas cadastradas, permitindo visualizar o valor e a data de cada despesa.
+- Estatísticas de despesas: Apresenta gráficos e estatísticas para ajudar no acompanhamento dos gastos.
 
 ## Requisitos
 
